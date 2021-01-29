@@ -1,34 +1,22 @@
 {
   "tasks": [
     {
-      "id": 1,
-      "task": "abc",
-      "date": "12pm 30 Jan 2021",
-      "reminder": false
+      "task": "Breaking Bad API",
+      "date": "30-jan-2021",
+      "reminder": true,
+      "id": 1
     },
     {
-      "task": "adad",
-      "date": "das",
+      "task": "DEV Wing CPC",
+      "date": "1-02-2021",
+      "reminder": true,
+      "id": 2
+    },
+    {
+      "task": "Deploy",
+      "date": "28-jan-2021",
       "reminder": true,
       "id": 4
-    },
-    {
-      "task": "task1",
-      "date": "12 sfdsfs",
-      "reminder": false,
-      "id": 6
-    },
-    {
-      "task": "asdad",
-      "date": "asdsa",
-      "reminder": true,
-      "id": 7
-    },
-    {
-      "task": "dasdad",
-      "date": "asdad",
-      "reminder": true,
-      "id": 8
     }
   ]
 }

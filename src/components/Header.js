@@ -13,7 +13,7 @@ const Header = (props) => {
       <Button
         classname='btn'
         color={props.changebtn ? "#FE2E2E" : "steelblue"}
-        text={props.changebtn ? "Close" : "Add Task"}
+        text={props.changebtn ? "Cancle" : "Add Task"}
         onClick={props.onshowAddBtn}
       />
     </header>
