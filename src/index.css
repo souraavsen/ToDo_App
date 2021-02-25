@@ -18,6 +18,8 @@ body {
   border: 2px solid rgb(2, 2, 2);
   padding: 30px;
   border-radius: 5px;
+  background-image: linear-gradient(75deg, #e4d9f7, #d7faeb, #b3ffff);
+  box-shadow: 1px 1px 3px 3px rgb(56, 75, 77);
 }
 
 .container .todo_circle{
@@ -34,15 +36,15 @@ body {
 
 .header {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
+  text-align: center;
   align-items: center;
   margin-bottom: 20px;
 }
 
 .btn {
   display: inline-block;
-  background: #000;
-  color: #fff;
+  color: rgb(0, 0, 0);
   border: none;
   padding: 10px 20px;
   margin: 5px;
@@ -51,6 +53,8 @@ body {
   text-decoration: none;
   font-size: 15px;
   font-family: inherit;
+  border: 1px solid black;
+  font-weight: 900;
 }
 
 .btn:focus {
@@ -63,19 +67,25 @@ body {
 
 .btn-block {
   display: block;
-  width: 100%;
-  background-color: steelblue;
+  width: 25%;
+  background-color: #1fd1d1;
+  color: #000;
+  font-weight: 900;
+  border:.5px solid black;
+  margin: auto;
 }
 
 .task {
-  background: #f4f4f4;
+  background: #ffffff;
   margin: 5px;
   padding: 10px 20px;
   cursor: pointer;
+  border: 1px solid black;
+  border-radius: 5px;
 }
 
-.task.reminder {
-  border-left: 5px solid steelblue;
+.task.done {
+  background-color: rgb(111, 238, 111);
 }
 
 .task h3 {
@@ -84,16 +94,16 @@ body {
   justify-content: space-between;
 }
 
-.facheck{
-  color: rgb(24, 148, 24);
+.fatrash{
+  color: rgb(0, 0, 0);
   font-weight: 900;
   font-size: 20px;
 }
 
-.facheck:hover{
-  color: rgb(153, 248, 11);
+.fatrash:hover{
+  color: rgb(253, 31, 23);
   font-weight: 900;
-  font-size: 25px;
+  font-size: 22px;
   cursor: pointer;
 }
 
@@ -104,6 +114,7 @@ body {
 .form-control {
   margin: 20px 0;
 }
+
 
 .form-control label {
   display: block;
@@ -134,7 +145,22 @@ body {
   height: 20px;
 }
 
-footer {
-  margin-top: 30px;
-  text-align: center;
+.gap{
+  padding-top:5px;
+  background-color: #70a8f1	;
+  max-width: 700px;
+  position: relative;
+  border-radius: 5px;
+  border:1px solid black;
+  box-shadow: 1px 1px 3px 3px rgb(56, 75, 77) ;
+  overflow: auto
+
+}
+
+.whole_container{
+  max-width: 700px;
+  margin: 30px auto;
+  overflow: auto;
+  min-height: 300px;
+  padding: 30px;
 }

@@ -1,6 +1,5 @@
 {
   "name": "reactapp",
-  "homepage": "http://souraavsen1.github.io/TO-DO_list",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

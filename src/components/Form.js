@@ -49,7 +49,7 @@ const Form = ({ addTask }) => {
           }}
         ></input>
       </div>
-      <div className='form-control form-control-check'>
+      {/* <div className='form-control form-control-check'>
         <label>Add Reminder</label>
         <input
           type='checkbox'
@@ -59,7 +59,7 @@ const Form = ({ addTask }) => {
             setReminder(e.currentTarget.checked);
           }}
         ></input>
-      </div>
+      </div> */}
 
       <input className='btn btn-block' type='submit' value='Save'></input>
     </form>
